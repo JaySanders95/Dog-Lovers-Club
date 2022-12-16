@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Overpass:wght@300&display=swap');
+
+Header {
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
