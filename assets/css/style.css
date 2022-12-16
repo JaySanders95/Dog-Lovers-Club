@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Overpass:wght@300&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+
 Header {
     font-family: 'Exo 2', sans-serif;
+    margin: 10px;
+    padding: 25px;
+    font-size: 30px;
+
 }
 
 body {
     font-family: 'Overpass', sans-serif;
+}
+
+#nav-bar {
+    list-style: none;
+
+}
+
+nav ul {
+    float: right;
+    margin-top: 5px;
+    
 }
