@@ -8,37 +8,46 @@
 }
 
 header {
-    background-color: green;
+    background-color: rgb(195, 216, 195);
 }
 
 body {
     font-family: 'Overpass', sans-serif;
 }
 
-/* Headers and logos */
+/* Nav bar and logos */
 
+
+h1 {
+    text-decoration: none;
+}
 
 #logo {
     font-family: 'Exo 2', sans-serif;
-    margin: 10px;
+    margin: 0;
     padding: 25px;
-    font-size: 300%;
-    text-align: center;
+    font-size: 250%;
+    text-align: left;
     color: grey;
-}
+    }
+
+
 #nav-bar {
     list-style: none;
-    font-size: 30px;
-    background-color: red;
+    font-size: 20px;
     display: inline-block;
-    position: relative;
-    
-
-
-}
-
-nav ul {
-    float: right;
-    margin-top: 5px;
+    position: absolute;
+    right:0;
+    top: 0;
+    text-align: center;
+    line-height: 75px;
+    margin: 25px 25px 0 0;
+    letter-spacing: 3.5px;
     
 }
+
+#nav-bar a {
+    text-decoration: none;
+}
+
+/* Introduction / Who we are */
