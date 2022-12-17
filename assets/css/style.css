@@ -102,3 +102,27 @@ h1 {
     width: 33%;
     padding: 25px;
 }
+
+/* Our Services*/
+
+#services {
+    text-align: center;
+
+}
+
+#services h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 200%;
+    margin: auto 0;
+}
+
+.service-types {
+    background-color: rgb(105, 142, 136);
+    margin: 20px 0;
+    padding: 20px 0;
+    height: 250px;
+    width: 33%;
+    text-align: center;
+    border-radius: 10%;
+}
