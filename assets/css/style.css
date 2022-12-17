@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: rgb(195, 216, 195);
+    background-color: rgb(44, 46, 44);
 }
 
 body {
@@ -28,7 +28,7 @@ h1 {
     padding: 25px;
     font-size: 250%;
     text-align: left;
-    color: grey;
+    color: whitesmoke;
     }
 
 
@@ -43,17 +43,28 @@ h1 {
     line-height: 75px;
     margin: 25px 25px 0 0;
     letter-spacing: 3.5px;
+    color: whitesmoke;
     
 }
 
 #nav-bar a {
+    color: whitesmoke;
     text-decoration: none;
 }
 
 /* Main image */
 
 #top-image {
-    background: url('//assets/');
+    background: url('../images/image-of-dogs.jpg') no-repeat center;
+    background-color: white;
+    background-position: top;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+
 }
 
 /* Introduction / Who we are */
@@ -62,4 +73,32 @@ h1 {
     padding: 25px;
     margin: 25px;
     text-align: center;
+}
+
+#about-us h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 200%;
+}
+
+#who-we-are {
+    
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    padding: 25px;
+}
+#clean {
+    margin: auto 0;
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    padding: 25px;
+}
+#long-term {
+    
+    display: inline-block;
+    height: 100%;
+    width: 33%;
+    padding: 25px;
 }
