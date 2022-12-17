@@ -70,7 +70,7 @@ h1 {
 /* Introduction / Who we are */
 
 #about-us {
-    padding: 25px;
+    padding: 75px;
     margin: 25px;
     text-align: center;
 }
@@ -107,6 +107,8 @@ h1 {
 
 #services {
     text-align: center;
+    padding: 50px;
+        
 
 }
 
@@ -117,12 +119,44 @@ h1 {
     margin: auto 0;
 }
 
-.service-types {
-    background-color: rgb(105, 142, 136);
-    margin: 20px 0;
-    padding: 20px 0;
-    height: 250px;
+#just-a-walk {
+    background: url(../images/dog-walking.jpg) center center no-repeat;
+    margin: auto;
+    padding: 30px;
+    height: 100px;
     width: 33%;
     text-align: center;
     border-radius: 10%;
+    color: rgb(255, 255, 255);
+ }
+
+#monthly-service {
+    background: url(../images/dog-walking.jpg) center center no-repeat;
+    margin: auto;
+    padding: 30px;
+    height: 100px;
+    width: 33%;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
 }
+
+.service-types {
+    
+    
+}
+
+.service-types p {
+    text-align: center
+}
+
+.service-buttons {
+    background-color: rgb(199, 45, 45);
+    height: 30px;
+    width: 60px;
+    border: 1px solid grey;
+    text-decoration: none;
+    right: 10px;
+    bottom: 10px; 
+}
+
