@@ -105,14 +105,14 @@ h1 {
 
 /* Our Services*/
 
-#services {
+#services-header {
     text-align: center;
     padding: 50px;
         
 
 }
 
-#services h2 {
+#services-header h2 {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 200%;
@@ -121,34 +121,56 @@ h1 {
 
 #just-a-walk {
     background: url(../images/dog-walking.jpg) center center no-repeat;
-    margin: auto;
+    background-size: cover;
     padding: 30px;
-    height: 100px;
+    margin-left: 75px;
     width: 33%;
     text-align: center;
-    border-radius: 10%;
-    color: rgb(255, 255, 255);
+    border-radius: 15%;
+    color: rgb(249, 255, 139);
+    position: relative;
+    float: left;
+
+
+    
+ }
+
+ #just-a-walk p {
+    font-size: 85%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(95, 254, 138);
+
+    
+    
+  
+
+    
  }
 
 #monthly-service {
-    background: url(../images/dog-walking.jpg) center center no-repeat;
-    margin: auto;
+    background: url(../images/dog-haircut.jpg) center center no-repeat;
+    background-size: cover;
+    float: right;
     padding: 30px;
-    height: 100px;
+    margin-right: 75px;
+    height: 150px;
     width: 33%;
     text-align: center;
     border-radius: 10%;
-    color: rgb(255, 255, 255);
-}
-
-.service-types {
-    
+    color: rgba(35, 30, 35, 0.8)
     
 }
 
-.service-types p {
-    text-align: center
-}
+#monthly-subscription-description {
+    font-size: 85%;
+    margin: auto;
+    text-align: center;
+       
+ }
+
+
 
 .service-buttons {
     background-color: rgb(199, 45, 45);
@@ -156,7 +178,21 @@ h1 {
     width: 60px;
     border: 1px solid grey;
     text-decoration: none;
-    right: 10px;
-    bottom: 10px; 
+    border-radius: 10%;
+    color: white;
+       
 }
 
+div button {
+    float: right;
+    margin-bottom: 5px;
+}
+
+.service-buttons a {
+    text-decoration: none;
+}
+
+.service-buttons:hover, a:hover {
+    background-color: rgb(87, 87, 228);
+    color: white;
+}
