@@ -127,26 +127,17 @@ h1 {
     width: 33%;
     text-align: center;
     border-radius: 15%;
-    color: rgb(249, 255, 139);
     position: relative;
     float: left;
-
-
-    
+    color: rgb(196, 202, 202);
  }
 
  #just-a-walk p {
     font-size: 85%;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    text-align: center;
-    color: rgb(95, 254, 138);
-
-    
-    
-  
-
-    
+    margin: auto 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: medium;    
  }
 
 #monthly-service {
@@ -158,10 +149,19 @@ h1 {
     height: 150px;
     width: 33%;
     text-align: center;
-    border-radius: 10%;
-    color: rgba(35, 30, 35, 0.8)
-    
+    border-radius: 15%;
+    color:white;
+           
 }
+
+#monthly-service p {
+    font-size: 85%;
+    margin: auto 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 20px;  
+ }
 
 #monthly-subscription-description {
     font-size: 85%;
@@ -180,8 +180,10 @@ h1 {
     text-decoration: none;
     border-radius: 10%;
     color: white;
-       
+           
 }
+
+
 
 div button {
     float: right;
