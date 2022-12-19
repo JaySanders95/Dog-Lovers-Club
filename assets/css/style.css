@@ -254,3 +254,32 @@ div button {
     font-weight: 600;
     font-size: 150%;
 }
+
+#members-1 {
+    
+    height: 250px;
+    width: 100%;
+
+}
+
+#casey-header {
+    text-align: center;
+    padding: 40px 0 10px 0;
+    font-size: 120%;
+}
+
+#casey {
+    background-position: center;
+    height: 100%;
+    width: 300px;
+    float: left;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+#members-1 p {
+    text-align: left;
+    font-size: 150%;
+    font-weight: 300;
+    padding-top: 75px;
+}
