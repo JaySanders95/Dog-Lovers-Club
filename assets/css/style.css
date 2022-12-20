@@ -284,3 +284,24 @@ div button {
     padding-top: 75px;
 }
 
+#location {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(44, 46, 44);
+    width: 100%;
+    height: 150px;
+    
+}
+
+footer a {
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    color: whitesmoke;
+    right: 50%;
+    
+
+    
+}
