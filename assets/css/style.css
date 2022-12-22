@@ -1,328 +1,296 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Overpass:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Overpass:wght@300&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
-
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
-header {
-    background-color: rgb(44, 46, 44);
-    padding: -20px;
+main {
+  background-color: rgb(44, 46, 44);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  
 }
 
 body {
-    font-family: 'Overpass', sans-serif;
-    padding: 10px;
-
-}
+  font-family: "Overpass", sans-serif;
+  }
 
 /* Nav bar and logos */
 
-
 h1 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #logo {
-    font-family: 'Exo 2', sans-serif;
-    margin: 0;
-    padding: 25px;
-    font-size: 250%;
-    text-align: left;
-    color: whitesmoke;
-    }
-
-
-#nav-bar {
-    list-style: none;
-    font-size: 20px;
-    display: inline-block;
-    position: absolute;
-    right:0;
-    top: 0;
-    text-align: center;
-    line-height: 75px;
-    margin: 25px 25px 0 0;
-    letter-spacing: 3.5px;
-    color: whitesmoke;
-    
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+  padding: 25px;
+  font-size: 250%;
+  color: whitesmoke;
+  text-align: center;
 }
 
-#nav-bar a {
-    color: whitesmoke;
-    text-decoration: none;
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+}
+
+.active {
+  color: red !important;
+}
+
+  
 }
 
 /* Main image */
 
-#top-image {
-    background: url('../images/image-of-dogs.jpg') no-repeat center;
-    background-color: white;
-    background-position: top;
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    position: relative;
-    margin: 5px;
-    padding: 5px;
+#main-image {
+  display: flex;
+  height: 500px;
+  width: 400px;
 
 }
+
+#top-image {
+  flex: auto;
+  background: url("../images/image-of-dogs.jpg") no-repeat  center center;
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  flex-basis: 300px;
+  margin-top: 17vw;
+  
+ }
 
 /* Introduction / Who we are */
 
 #about-us {
-    padding: 75px;
-    margin: 25px;
-    text-align: center;
+  padding: 75px;
+  margin: 25px;
+  text-align: center;
 }
 
 #about-us h2 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 200%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 200%;
 }
 
 #who-we-are {
-    
-    display: inline-block;
-    height: 100%;
-    width: 33%;
-    padding: 25px;
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+  padding: 25px;
 }
 #clean {
-    margin: auto 0;
-    display: inline-block;
-    height: 100%;
-    width: 33%;
-    padding: 25px;
+  margin: auto 0;
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+  padding: 25px;
 }
 #long-term {
-    
-    display: inline-block;
-    height: 100%;
-    width: 33%;
-    padding: 25px;
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+  padding: 25px;
 }
 
 /* Our Services*/
 
 #services {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-#services div {
-    padding: 20px;
-    
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #services-header {
-    text-align: center;
-    padding: 50px;
-    
-        
-
+  text-align: center;
+  padding: 50px;
 }
 
 #services-header h2 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 200%;
-    margin: auto 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 200%;
+  margin: auto 0;
 }
 
 #just-a-walk {
-    
-    width: 100%;
-    margin: auto 0;
-    height: 200px;
-    line-height: 75px;
-    text-align: center;
-    background-color: rgb(44, 46, 44);
-    color: whitesmoke;
-    
- }
- 
- #content-walk {
-    margin:auto 0;
+  width: 100%;
+  margin: auto 0;
+  height: 200px;
+  line-height: 75px;
+  text-align: center;
+  background-color: rgb(44, 46, 44);
+  color: whitesmoke;
 }
 
- #just-a-walk p {
-    font-size: 85%;
-    margin: auto 0;
-    text-align: center;
-    font-weight: 600;
-    font-size: medium;
+#content-walk {
+  margin: auto 0;
+}
 
- }
+#just-a-walk p {
+  font-size: 85%;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+}
 
 #monthly-service {
-    width: 100%;
-    margin: auto 0;
-    border: 1px solid rgb(255, 255, 255);
-    height: 200px;
-    line-height: 50px;
-    text-align: center;
-    background-color: rgb(44, 46, 44);
-    color: whitesmoke;
-    
-           
+  width: 100%;
+  margin: auto 0;
+  border: 1px solid rgb(255, 255, 255);
+  height: 200px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(44, 46, 44);
+  color: whitesmoke;
 }
-
 
 #monthly-service p {
-    font-size: 85%;
-    margin: auto 0;
-    text-align: center;
-    font-weight: 600;
-    font-size: medium;
-    padding: 0;
-     
- }
-
-#monthly-subscription-description {
-    font-size: 85%;
-    margin: auto;
-    text-align: center;
-       
- }
-
- #emergency-service {
-    width: 100%;
-    margin: auto 0;
-    border: 1px solid rgb(255, 255, 255);
-    height: 200px;
-    line-height: 50px;
-    text-align: center;
-    background-color: rgb(44, 46, 44);
-    color: whitesmoke;
- }
-
-
-.service-buttons {
-    background-color: rgb(199, 45, 45);
-    height: 30px;
-    width: 60px;
-    border: 1px solid grey;
-    text-decoration: none;
-    border-radius: 10%;
-    color: white;
-
-    
+  font-size: 85%;
+  margin: auto 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: medium;
+  padding: 0;
 }
 
+#monthly-subscription-description {
+  font-size: 85%;
+  margin: auto;
+  text-align: center;
+}
 
+#emergency-service {
+  width: 100%;
+  margin: auto 0;
+  border: 1px solid rgb(255, 255, 255);
+  height: 200px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgb(44, 46, 44);
+  color: whitesmoke;
+}
+
+.service-buttons {
+  background-color: rgb(199, 45, 45);
+  height: 30px;
+  width: 60px;
+  border: 1px solid grey;
+  text-decoration: none;
+  border-radius: 10%;
+  color: white;
+}
 
 div button {
-    float: right;
-    margin: 5px;
-    text-align: center;
-    
+  float: right;
+  margin: 5px;
+  text-align: center;
 }
 
 .service-buttons a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.service-buttons:hover, a:hover {
-    background-color: rgb(87, 87, 228);
-    color: white;
+.service-buttons:hover,
+a:hover {
+  background-color: rgb(87, 87, 228);
+  color: white;
 }
 
 /* Community */
 
 #community-header {
-    width: 100%;
-    height: 150px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    }
+  width: 100%;
+  height: 150px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
 
 #community {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 200%;
 }
 
 #members-heading {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 150%;
 }
 
 #members-1 {
-    
-    height: 250px;
-    width: 100%;
-
+  height: 250px;
+  width: 100%;
 }
 
 #casey-header {
-    text-align: center;
-    padding: 40px 0 10px 0;
-    font-size: 120%;
+  text-align: center;
+  padding: 40px 0 10px 0;
+  font-size: 120%;
 }
 
 #casey {
-    background-position: center;
-    height: 100%;
-    width: 300px;
-    float: left;
-    border-radius: 50%;
-    padding-right: 20px;
+  background-position: center;
+  height: 100%;
+  width: 300px;
+  float: left;
+  border-radius: 50%;
+  padding-right: 20px;
 }
 
 #members-1 p {
-    text-align: left;
-    font-size: 150%;
-    font-weight: 300;
-    padding-top: 75px;
+  text-align: left;
+  font-size: 150%;
+  font-weight: 300;
+  padding-top: 75px;
 }
 
 #location {
-    text-align: center;
+  text-align: center;
 }
 
 #join {
-    background-color: blue;
-    width: 100%;
-    height: 200px;
-    padding: 25px;
+  background-color: blue;
+  width: 100%;
+  height: 200px;
+  padding: 25px;
 }
 
 #text-box {
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    margin-top: 10px;
-
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-top: 10px;
 }
 
-
-
 footer {
-    background-color: rgb(44, 46, 44);
-    width: 100%;
-    height: 150px;
-    margin-top: 0 auto; 
-    margin-bottom: 0 auto;
+  background-color: rgb(44, 46, 44);
+  width: 100%;
+  height: 150px;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
 }
 
 footer a {
-    display: inline-block;
-    color: whitesmoke;
-    right: 50%;
-    
-      
+  display: inline-block;
+  color: whitesmoke;
+  right: 50%;
 }
 
 #facebook {
-    height: 25px;
-    width: 25px;
-    color:rgb(17, 34, 223)
+  height: 25px;
+  width: 25px;
+  color: rgb(17, 34, 223);
 }
