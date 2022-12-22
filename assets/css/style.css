@@ -37,9 +37,10 @@ h1 {
 nav ul {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   color: inherit;
+  justify-content: space-evenly;
 }
 
 .active {
@@ -65,7 +66,7 @@ nav ul {
   height: 500px;
   width: 100%;
   flex-basis: 300px;
-  margin-top: 17vw;
+  margin-top: 9vw;
   
  }
 
@@ -89,6 +90,7 @@ nav ul {
   width: 33%;
   padding: 25px;
 }
+
 #clean {
   margin: auto 0;
   display: inline-block;
@@ -108,6 +110,7 @@ nav ul {
 #services {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
 }
 
 #services-header {
@@ -126,7 +129,6 @@ nav ul {
   width: 100%;
   margin: auto 0;
   height: 200px;
-  line-height: 75px;
   text-align: center;
   background-color: rgb(44, 46, 44);
   color: whitesmoke;
@@ -136,20 +138,13 @@ nav ul {
   margin: auto 0;
 }
 
-#just-a-walk p {
-  font-size: 85%;
-  margin: auto 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: medium;
-}
+
 
 #monthly-service {
   width: 100%;
   margin: auto 0;
   border: 1px solid rgb(255, 255, 255);
   height: 200px;
-  line-height: 50px;
   text-align: center;
   background-color: rgb(44, 46, 44);
   color: whitesmoke;
@@ -175,7 +170,6 @@ nav ul {
   margin: auto 0;
   border: 1px solid rgb(255, 255, 255);
   height: 200px;
-  line-height: 50px;
   text-align: center;
   background-color: rgb(44, 46, 44);
   color: whitesmoke;
