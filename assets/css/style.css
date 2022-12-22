@@ -50,8 +50,9 @@ nav ul {
   text-decoration: none !important;
 }
 
-.links:hover {
-  color: red;
+a:hover {
+  color: red !important;
+  background: 1px solid rgb(44, 46, 44);
 }
 
   
@@ -72,8 +73,7 @@ nav ul {
   background-color: white;
   height: 500px;
   width: 100%;
-  flex-basis: 300px;
-  margin-top: 9vw;
+  margin-top: 50px;
   
  }
 
@@ -136,12 +136,6 @@ h2 {
   padding: 50px;
 }
 
-#services-header h2 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 200%;
-  margin: auto 0;
-}
 
 #just-a-walk {
   width: 100%;
