@@ -142,11 +142,9 @@ h2 {
   border-radius: 15%;
   margin: auto 0;
   height: 200px;
-  text-align: center;
   background-color: rgb(44, 46, 44);
   color: whitesmoke;
   display: flex;
-  margin: auto 0;
   flex-direction: column;
   align-content: space-around;
   justify-content: space-around;
@@ -173,16 +171,7 @@ h2 {
 }
 
 
-#monthly-service p {
-  text-align: center;
- 
-}
 
-#monthly-subscription-description {
-  font-size: 85%;
-  margin: auto;
-  text-align: center;
-}
 
 #emergency-service {
   width: 33%;
@@ -309,3 +298,35 @@ footer p {
   text-align: left;
   color: whitesmoke;
 }
+
+@supports (display: flex) {
+  @media screen and (max-width: 650px) {
+    #services {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #services #just-a-walk {
+      width: 100%;
+    }
+
+    #services #monthly-service {
+      width: 100%;
+    }
+
+    #services #emergency-service {
+      width: 100%;
+    }
+
+   }
+
+   @media screen and (max-width:950px) {
+
+
+    
+   }
+   }
