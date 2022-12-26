@@ -244,6 +244,7 @@ a:hover {
   height: 250px;
   width: 100%;
   display: flex;
+  padding-bottom: 20px;
 }
 
 #casey-header {
@@ -265,11 +266,12 @@ a:hover {
   text-align: left;
   font-size: 150%;
   font-weight: 300;
-  padding-top: 75px;
+  padding: 75px;
 }
 
 #location {
   text-align: center;
+  padding-top: 60px;
 }
 
 
@@ -325,8 +327,17 @@ footer p {
    }
 
    @media screen and (max-width:950px) {
+    #members-1 {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 50px;
+    }
+
+    #members-1 p {
+      align-items: center;
+      padding: 20px;
+    }
 
 
-    
    }
    }
