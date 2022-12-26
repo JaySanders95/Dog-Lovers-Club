@@ -324,6 +324,10 @@ footer p {
       width: 100%;
     }
 
+    #top-image {
+      background: contain;
+    }
+
    }
 
    @media screen and (max-width:950px) {
