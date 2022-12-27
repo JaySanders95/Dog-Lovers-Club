@@ -24,9 +24,6 @@ body {
 
 /* Nav bar and logos */
 
-h1 {
-  text-decoration: none !important;
-}
 
 #logo {
   font-family: "Exo 2", sans-serif;
@@ -35,7 +32,7 @@ h1 {
   font-size: 250%;
   color: whitesmoke;
   text-align: center;
-  text-decoration: none !important;
+
 }
 
 nav ul {
@@ -52,9 +49,13 @@ nav ul {
   text-decoration: none !important;
 }
 
-a:hover {
+.links:hover {
   color: red !important;
   background: 1px solid rgb(44, 46, 44);
+}
+
+.links a:hover {
+  background-color: whitesmoke !important;
 }
 
 /* header image */
@@ -103,6 +104,12 @@ h2 {
   margin-bottom: 15px;
 }
 
+.ethos:hover{
+  background: rgb(44 46 44 / 80%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 #clean {
   margin: auto 0;
   display: inline-block;
@@ -137,7 +144,7 @@ h2 {
 #just-a-walk {
   width: 30%;
   border-radius: 15%;
-  margin: auto 0;
+  margin: auto;
   height: 200px;
   background-color: rgb(44, 46, 44);
   color: whitesmoke;
@@ -147,11 +154,17 @@ h2 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+#just-a-walk:hover{
+  background: rgb(44 46 44 / 80%);
+  transition: 0.5s;
+
 }
 
 #monthly-service {
-  width: 33%;
-  margin: auto 0;
+  width: 30%;
+  margin: auto;
   border-radius: 15%;
   border: 1px solid rgb(255, 255, 255);
   height: 200px;
@@ -164,11 +177,17 @@ h2 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+#monthly-service:hover{
+  background: rgb(44 46 44 / 80%);
+  transition: 0.5s;
+
 }
 
 #emergency-service {
-  width: 33%;
-  margin: auto 0;
+  width: 30%;
+  margin: auto;
   border-radius: 15%;
   border: 1px solid rgb(255, 255, 255);
   height: 200px;
@@ -183,14 +202,20 @@ h2 {
   flex-wrap: wrap;
 }
 
+#emergency-service:hover{
+  background: rgb(44 46 44 / 80%);
+  transition: 0.5s;
+
+}
+
 .service-buttons {
-  background-color: rgb(199, 45, 45);
+  background-color: whitesmoke;
   height: 30px;
   width: 60px;
   border: 1px solid grey;
   text-decoration: none;
   border-radius: 10%;
-  color: white;
+  color: whitesmoke !important;
 }
 
 div button {
@@ -205,8 +230,9 @@ div button {
 
 .service-buttons:hover,
 a:hover {
-  background-color: rgb(87, 87, 228);
-  color: white;
+  background-color: red;
+  color: whitesmoke;
+  cursor: pointer;
 }
 
 /* Community */
@@ -289,7 +315,7 @@ footer p {
 }
 
 @supports (display: flex) {
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 850px) {
     #services {
       display: flex;
       flex-direction: column;
@@ -300,15 +326,16 @@ footer p {
     }
 
     #services #just-a-walk {
-      width: 100%;
+      width: 95%;
     }
 
     #services #monthly-service {
-      width: 100%;
+      width: 95%;
+      border: 20px white solid;
     }
 
     #services #emergency-service {
-      width: 100%;
+      width: 95%;
     }
 
     #top-image {
@@ -328,4 +355,16 @@ footer p {
       padding: 20px;
     }
   }
+
+  @media screen and (max-width: 435px){
+    #logo {
+      font-size: 180%;
+    }
+
+    h2 {
+      font-size: 180% !important;
+
+    }
+  }
+
 }
