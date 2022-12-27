@@ -22,3 +22,4 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 
 ## Services
 - This section shows 3 individual squares across the page, one for the most basic service "just a walk", one for the "monthly service" which in a short paragraph informs the user for a monthly fee they will get 5 walks a week and we offer a grooming service included. The last section is "emergency services" and the user is not shown a price, this would be a difference in price depending on the length of dog-sitting. all three sections have a 'let's go' button, which if was coded would take the user to a payment screen/login screen if not logged in/booking screen.
+- The text for the services matches the same colour scheme for the rest of the text (whitesmoke) and is also displayed on the same background colour for the logo and nav bar, keeping a consistent colour for the website.
