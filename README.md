@@ -52,9 +52,18 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 - Although there is no text in the footer, the 'text' colour is used on the clickable social media icons, taken from FontAwesome and modified larger. When these links are clicked, they do not navigate the user away from the page, rather it opens a new tab with the _blank attribute.
 - To follow the :hover colour scheme for all links, when the user 
 
-## Validator testing
-# HTML
+# Bugs
+
+## Fixed bugs
+- W
+
+
+# Validator testing
+## HTML
 - Html passes the validation checks
 
-# CSS
+## CSS
 - CSS passes the validation checks
+
+# Accessibility
+- I can confirm that the lighthouse score i have received is listed below and it meets almost perfect for accessibility. This is shown in easy to see background/foreground colour contrasts and aria labels / alt attribute for my links. 
