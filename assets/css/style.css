@@ -273,7 +273,7 @@ a:hover {
 }
 
 #casey {
-  background: url("/assets/images/girl-smiling-image.jpg") no-repeat;
+  background: url("../assets/images/girl-smiling-image.jpg") no-repeat;
   background-position: center;
   height: 600px;
   width: 90%;
