@@ -55,7 +55,7 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 # Bugs
 
 ## Fixed bugs
-- W
+- 
 
 
 # Validator testing
