@@ -255,10 +255,13 @@ a:hover {
 }
 
 #members-1 {
+  
   width: 100%;
   display: flex;
   padding-bottom: 20px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #casey-header {
@@ -270,13 +273,12 @@ a:hover {
 }
 
 #casey {
+  background: url("/assets/images/girl-smiling-image.jpg") no-repeat;
   background-position: center;
-  background-size: contain;
-  max-height: 200px;
-  max-width: 300px;
+  height: 600px;
+  width: 90%;
   border-radius: 10%;
-  padding-left: 20px;
-}
+ }
 
 #members-1 p {
   text-align: left;
@@ -372,4 +374,10 @@ footer p {
     }
   }
 
+  @media screen and (max-width: 650px){
+    #casey {
+      background-size: contain;
+      height: 300px;
+    }
+  }
 }

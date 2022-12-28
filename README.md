@@ -55,7 +55,7 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 # Bugs
 
 ## Fixed bugs
-- 
+- When my page was deployed, my image pathway was broken and it would not show up on the active webpage. When i realised it would not run
 
 
 # Validator testing
