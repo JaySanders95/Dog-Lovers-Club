@@ -271,8 +271,9 @@ a:hover {
 
 #casey {
   background-position: center;
-  height: 200px;
-  width: 300px;
+  background-size: contain;
+  max-height: 200px;
+  max-width: 300px;
   border-radius: 10%;
   padding-left: 20px;
 }

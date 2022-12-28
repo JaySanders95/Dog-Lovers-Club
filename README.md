@@ -51,3 +51,10 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 - The width mimics that of the navigation bar, so it stretches the entirety of the screen and the color scheme matches exactly, to give it a nicer aesthetic feel when viewing. The same background colour and 'text' colour for the navigation bar, 'services' and 'about us'.
 - Although there is no text in the footer, the 'text' colour is used on the clickable social media icons, taken from FontAwesome and modified larger. When these links are clicked, they do not navigate the user away from the page, rather it opens a new tab with the _blank attribute.
 - To follow the :hover colour scheme for all links, when the user 
+
+## Validator testing
+# HTML
+- Html passes the validation checks
+
+# CSS
+- CSS passes the validation checks
