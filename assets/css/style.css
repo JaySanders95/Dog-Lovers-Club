@@ -289,6 +289,12 @@ a:hover {
   padding-top: 60px;
 }
 
+#map {
+  width: 100%;
+  height: 300;
+  
+}
+
 footer {
   background-color: rgb(44, 46, 44);
   bottom: 0;
