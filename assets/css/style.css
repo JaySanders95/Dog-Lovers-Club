@@ -52,7 +52,7 @@ nav ul {
 .links:hover {
   color: red ;
   background-color: whitesmoke;
-  background: 1px solid rgb(44, 46, 44);
+  background: 1px rgb(44, 46, 44);
 }
 
 .links a:hover {
@@ -80,7 +80,7 @@ nav ul {
 /* Introduction / Who we are */
 
 #about-us {
-  padding: px;
+  padding: 10px;
   margin: 25px;
   text-align: center;
   display: flex;
@@ -291,7 +291,7 @@ a:hover {
 
 #map {
   width: 100%;
-  height: 300;
+  height: 200px;
   
 }
 
@@ -343,7 +343,7 @@ footer p {
     }
 
     #top-image {
-      background: contain;
+      background-size: contain;
     }
   }
 
