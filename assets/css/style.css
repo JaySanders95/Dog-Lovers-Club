@@ -154,6 +154,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 #just-a-walk:hover{
