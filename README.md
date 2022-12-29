@@ -1,8 +1,8 @@
 # Dog Lovers Club
 
-The Dog Lovers' club is a community and a service for dog owners, it offers one off services such as simple walks or subscription services for 5 days a week walks, grooming and feeding of the dogs.
+The Dog Lovers' club is a community and service for dog owners, it offers one-off services such as simple walks or subscription services for five days a week walks, grooming and feeding of the dogs.
 
-Users of this site would be able to see a brief overview of what the mission statement is for the website, this includes services that are offered, where to find the centre and a message from one of the community members of the week, also there are direct links to the social media pages, that will open in a new tab and a live google maps location for the user to find the address. (I used a landmark for the assessment example page)
+Users of this site would be able to see a brief overview of what the mission statement is for the website; this includes services that are offered, where to find the centre and a message from one of the community members of the week. Also there are direct links to the social media pages, that will open in a new tab and a live google maps location for the user to find the address. (I used a landmark for the assessment example page)
 
 ![](assets/images/am-i-reponsive.jpg)
 
