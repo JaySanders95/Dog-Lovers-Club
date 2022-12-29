@@ -58,6 +58,13 @@ Users of this site would be able to see a brief overview of what the mission sta
 - Although there is no text in the footer, the 'text' colour is used on the clickable social media icons, taken from FontAwesome and modified larger. When these links are clicked, they do not navigate the user away from the page, rather it opens a new tab with the _blank attribute.
 - To follow the :hover colour scheme for all links, when the user hovers over the social media, the same red background as the other links in the page will appear and the cursor will change to a pointer.
 
+# Testing
+- I tested this page across multiple devices and multiple browsers, this includes 4 iPhones, 5 Samsung devices, 2 Google devices, Mac safari, Google chrome, Internet Explorer & Samsung Internet. The 'hover' parts of the code were activated when the sections were pressed to give the same effect.
+
+- I can confirm that the page rendered nicely across all devices, except when dark mode was turned on, this would display a negative image colour contrast against the images/divs. This problem only happened once and was fixed when Dark Mode was deactivated.
+
+- I can also confirm that all of the buttons worked across all devices, navigation took the users to the correct place. The "let's go" buttons correctly sent the users back to the main part of the page as the secondary links have not been added to the project.
+
 # Bugs
 
 ## Fixed bugs
@@ -68,10 +75,29 @@ Users of this site would be able to see a brief overview of what the mission sta
 
 # Validator testing
 ## HTML
-- Html passes the validation checks
+- HTML passes the validation checks through the official W3C validator.
 
 ## CSS
-- CSS passes the validation checks
+- CSS passes the validation checks through the official Jigsaw validator
 
 # Accessibility
 - I can confirm that the lighthouse score i have received is listed below and it meets almost perfect for accessibility. This is shown in easy to see background/foreground colour contrasts and aria labels / alt attribute for my links. 
+![](assets/images/lighthouse-score.jpg)
+
+# Unfixed bugs
+- There are no unfixed bugs that i am aware of.
+
+# Deployment
+- The site was deployed to Github pages, the steps were as follows;
+-- In the github respository, above the files i clicked the settings icon, within this page there is a link to "pages" and from there i clicked the drop down menu and selected "main". After a refresh of the page, the link was available.
+
+The link for my page is here https://jaysanders95.github.io/Dog-Lovers-Club/
+
+
+# Credits
+- The images that were used for this project were from 2 separate sources, the main focal image was taken from google images and the community image was taken from pexels.
+- The idea for the Google maps icon across the bottom was taken from the Love Runnigng project, but the code is credit to Google maps, i used the embed code after selecting a landmark on their site. From this i took a direct HTML embed code, the only changes i made to this was the size.
+- The transition code for my project for the divs was written by my mentor; Jubril. Who showed me how to do this in a mentoring session and coded one of the sections, from there i copied the code and modified it to fit mine.
+- The icons around the logo and those of the social media buttons were taken from FontAwesome.
+- The two fonts that were used in the project were taken from GoogleFonts
+
