@@ -8,7 +8,7 @@ AM I . RESPONSIVE Will go in here once the site is fully finished
 
 ## NAVIGATION
 
-[screenshot](nav-bar.jpg)
+![](images/nav-bar.jpg)
 - The navigation bar is shown at the top of the page once it renders and will follow the user down the screen, remaining at the top of the screen for ease of access to all the available sections of the page.
 - The links are for Home, which takes the user to the very top of the page. This can also be accessed by clicking on the "Dog Lovers' club" text at the top of the page. The other links are 'About' which will take the user to the about section, 'services' to show what services the site has to offer and 'community' which is the member of the week section with a small bio of text. they are clearly labelled and centered for ease of use.
 -The font used in the navigation bar is 'Overpass' and matches that of the rest of the website, the only other font used in this website page was 'Exo 2' which was used for the logo. The main used color for all fonts was 'whitesmoke' which contrasts nicely with the background, which is a type of smoke grey. 
