@@ -65,7 +65,8 @@ Users of this site would be able to see a brief overview of what the mission sta
 
 - I can also confirm that all of the buttons worked across all devices, navigation took the users to the correct place. The "let's go" buttons correctly sent the users back to the main part of the page as the secondary links have not been added to the project.
 
-# Bugs
+# Key project goals
+- The desired outcome of this project was to create a website for the average working person, sometimes they do not have time to walk their dog or groom their pets. This fictional service offers just that, if i had more time to complete this project i would have implemented a "username/password" login pop-up for users and a second page for new users to join. There would have been a third page for a payment & booking screen, this would have given the users the opportunity to 'book a slot' for when they wanted their dog walked or groomed and pay for the service upon booking. There also would have been scope to book a week, or two weeks etc. for the emergency services, offering a service that would house dogs and the price would differ depending on the size of the dog, how long they needed to be housed and whether regular grooming was wanted. Unfortunately, this would have taken longer than i had available.
 
 ## Fixed bugs
 - When my page was deployed, my image pathway was broken and it would not show up on the active webpage. When i realised it would not run i had to find what was causing the issue. As one out of the two images had loaded, i realised it was directly the CSS that was preventing the image from loading. The original image pathway was broken, so i uploaded a new image and carefully changed the CSS to add this.

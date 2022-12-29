@@ -269,9 +269,7 @@ a:hover {
   text-align: center;
   padding: 40px 0 10px 0;
   font-size: 120%;
-  
-
-}
+  }
 
 #casey {
   background: url("../images/girl-smiling-image.jpg") no-repeat;
@@ -287,6 +285,7 @@ a:hover {
   font-weight: 300;
   padding: 75px;
 }
+/* Footer & Map */
 
 #location {
   text-align: center;
@@ -321,6 +320,8 @@ footer p {
   text-align: left;
   color: whitesmoke;
 }
+
+/* Media Queries for different display sizes*/
 
 @supports (display: flex) {
   @media screen and (max-width: 850px) {
