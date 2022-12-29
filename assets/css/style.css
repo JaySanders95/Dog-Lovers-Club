@@ -50,7 +50,7 @@ nav ul {
 }
 
 .links:hover {
-  color: red ;
+  color: red !important;
   background-color: whitesmoke;
   background: 1px rgb(44, 46, 44);
 }
@@ -338,7 +338,8 @@ footer p {
 
     #services #monthly-service {
       width: 95%;
-      border: 20px white solid;
+      border-top: 20px white solid;
+      border-bottom: 20px white solid;
     }
 
     #services #emergency-service {
