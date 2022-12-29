@@ -61,7 +61,9 @@ Users of this site would be able to see a brief overview of what the mission sta
 # Bugs
 
 ## Fixed bugs
-- When my page was deployed, my image pathway was broken and it would not show up on the active webpage. When i realised it would not run i had to find what was causing the issue. As one out of the two images had loaded, i realised it was directly the CSS that was preventing the image from loading.
+- When my page was deployed, my image pathway was broken and it would not show up on the active webpage. When i realised it would not run i had to find what was causing the issue. As one out of the two images had loaded, i realised it was directly the CSS that was preventing the image from loading. The original image pathway was broken, so i uploaded a new image and carefully changed the CSS to add this.
+- The Hero image would not render properly when viewed on a smaller screen, it would chop half of the picture away from it. When i was checking back through my CSS, i had the image fixed and i changed this to contain, this way the image would wrap nicely around the viewport.
+- 
 
 
 # Validator testing
