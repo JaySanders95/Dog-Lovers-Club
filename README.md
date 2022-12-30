@@ -46,7 +46,7 @@ Users of this site would be able to see a brief overview of what the mission sta
 - This is displayed the same for a normal PC user as the text will always remain underneath the picture and both will shrink to meet the screen size.
 
 ## Where to find us
--This section is code taken from google maps, upon choosing a famous place in liverpool (Goodison Park), i had embed the HTML link from this and copied it directly into my HTML.
+- This section is code taken from google maps, upon choosing a famous place in liverpool (Goodison Park), i had embed the HTML link from this and copied it directly into my HTML.
 - This will give the user an interactive map to which they can scroll around the area to see what landmarks are nearby to make getting there easier.
 - This also gives the user the opportunity to visit Google Maps directly with the pin still dropped at the location without forcing the user to leave the page, this will open in a new tab.
 - The only changes i had made to the code was that i increased the width to 100% so it spans across the entire page and when the screen size is reduced, it nicely shrinks.
