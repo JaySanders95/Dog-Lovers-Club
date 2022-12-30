@@ -83,7 +83,7 @@ Users of this site would be able to see a brief overview of what the mission sta
 
 # Accessibility
 - I can confirm that the lighthouse score i have received is listed below and it meets almost perfect for accessibility. This is shown in easy to see background/foreground colour contrasts and aria labels / alt attribute for my links. 
-- - The score for performance was rated at an 89 only because the FontAwesome tags made the page load a bit slower.
+- The score for performance was rated at an 89 only because the FontAwesome tags made the page load a bit slower.
 ![](assets/images/lighthouse-score.jpg)
 
 # Unfixed bugs
@@ -91,7 +91,7 @@ Users of this site would be able to see a brief overview of what the mission sta
 
 # Deployment
 - The site was deployed to Github pages, the steps were as follows;
--- In the github respository, above the files i clicked the settings icon, within this page there is a link to "pages" and from there i clicked the drop down menu and selected "main". After a refresh of the page, the link was available.
+- - In the github respository, above the files i clicked the settings icon, within this page there is a link to "pages" and from there i clicked the drop down menu and selected "main". After a refresh of the page, the link was available.
 
 The link for my page is here https://jaysanders95.github.io/Dog-Lovers-Club/
 
