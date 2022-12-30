@@ -83,6 +83,7 @@ Users of this site would be able to see a brief overview of what the mission sta
 
 # Accessibility
 - I can confirm that the lighthouse score i have received is listed below and it meets almost perfect for accessibility. This is shown in easy to see background/foreground colour contrasts and aria labels / alt attribute for my links. 
+- - The score for performance was rated at an 89 only because the FontAwesome tags made the page load a bit slower.
 ![](assets/images/lighthouse-score.jpg)
 
 # Unfixed bugs
